@@ -80,29 +80,35 @@ aside{
 
 .text{
 
-	float: right;
-	padding-top: 200px;
-	padding-right: 600px;
+	position: absolute;
+	top: 200px;
+	left: 300px;
 	font-size: 50px;
 	color: #e3e3e3;
 	font-family: abel;
 	font-weight: normal;
 	line-height: 50px;
+	z-index: 2;
 }
 
 .text a, .text p {
 	font-size: 12px;
-	padding-left: 10px;
+
+	/* padding-left: 10px; */
 	color: #e3e3e3;
 
 }
-
+.text h1{
+	font-size: 64px;
+	
+	z-index: 20000;
+}
 
 .hero{
 	background-color: #A9AAAE;
 }
 .home{
-	background-color: rgb(143 144 146);
+	background-color:#8F9094;
 	position: relative;
 	left: 400px;
 	
@@ -174,7 +180,14 @@ footer li{
 	content: " " ;
 }
 
-
-
+.home img{
+	position: absolute;
+	width: 41.5%;
+	left: -130px;
+	z-index: 1;
+}
+.home{
+	height: 100vh;
+}
 
 

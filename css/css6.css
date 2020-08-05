@@ -82,7 +82,7 @@ aside{
 
 	position: absolute;
 	top: 200px;
-	left: 300px;
+	left: 400px;
 	font-size: 50px;
 	color: #e3e3e3;
 	font-family: abel;
@@ -182,7 +182,7 @@ footer li{
 
 .home img{
 	position: absolute;
-	width: 41.5%;
+	width: 45%;
 	left: -130px;
 	z-index: 1;
 }
@@ -191,3 +191,6 @@ footer li{
 }
 
 
+.hero{
+	overflow: hidden;
+}
